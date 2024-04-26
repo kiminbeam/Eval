@@ -11,6 +11,7 @@
 <body>
     <h1>list Page</h1>
     <hr>
+    <a href="writeForm">글 작성하기</a>
     <table border="1">
         <thead>
             <tr>

@@ -1,5 +1,6 @@
 package com.green.evalBbs.dto;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,6 +13,6 @@ public class EvalBbsDto {
 	private String title;
 	private String content;
 	private String writer;
-	private int regdate;
+	private String regdate;
 	
 }

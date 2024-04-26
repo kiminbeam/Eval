@@ -11,4 +11,8 @@
 		INSERT INTO evalbbs (title,content,writer,regdate)
 		VALUES (#{dto.title}, #{dto.content},#{dto.writer},#{dto.regdate});
 	</insert>
+	
+	<select id="detailPage" resultType="com.green.evalBbs.dto.EvalBbsDto">
+		SELECT * FROM evalbbs WHERE bno=#{bno};
+	</select>
 </mapper>

@@ -14,6 +14,8 @@ public interface IEvalBbsDao {
 	
 	public void write(@Param("dto") EvalBbsDto dto);
 	
+	public EvalBbsDto detailPage(@Param("bno") String bno);
+	
 		
 	
 }

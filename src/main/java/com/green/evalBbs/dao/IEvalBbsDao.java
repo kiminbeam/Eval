@@ -16,6 +16,8 @@ public interface IEvalBbsDao {
 	
 	public EvalBbsDto detailPage(@Param("bno") String bno);
 	
+	public void delete(@Param("bno") String bno);
+	
 		
 	
 }

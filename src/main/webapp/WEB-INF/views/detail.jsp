@@ -12,6 +12,6 @@
     <hr>
     ${dto.title} / ${dto.content} / ${dto.writer} / ${dto.regdate} <br>
 
-    <a href="">삭제하기</a>
+    <a href="delete?bno=${dto.bno}">삭제하기</a>
 </body>
 </html>

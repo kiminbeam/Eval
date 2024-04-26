@@ -15,4 +15,8 @@
 	<select id="detailPage" resultType="com.green.evalBbs.dto.EvalBbsDto">
 		SELECT * FROM evalbbs WHERE bno=#{bno};
 	</select>
+	
+	<delete id="delete">
+		DELETE FROM evalbbs WHERE bno=#{bno};
+	</delete>
 </mapper>
